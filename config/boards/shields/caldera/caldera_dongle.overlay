@@ -1,6 +1,5 @@
 #include "caldera.dtsi"
 
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
