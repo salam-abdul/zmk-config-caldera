@@ -1,12 +1,25 @@
-if SHIELD_CALDERA_DONGLE
+if SHIELD_CALDERA_DONGLE || SHIELD_CALDERA_LEFT || SHIELD_CALDERA_RIGHT
 
-config ZMK_KEYBOARD_NAME
-    default "Caldera"
+config ZMK_SPLIT
+    default y
+
+endif
+
+
+if SHIELD_CALDERA_DONGLE  || SHIELD_CALDERA_LEFT 
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+if ZMK_SPLIT_ROLE_CENTRAL
+
+config ZMK_KEYBOARD_NAME
+    default "Caldera"
+
 endif
+
+
+if SHIELD_CALDERA_DONGLE
 
 if ZMK_DISPLAY
 
@@ -19,8 +32,6 @@ config SSD1306
 choice ZMK_DISPLAY_WORK_QUEUE
     default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
 endchoice
-
-endif
 
 if LVGL
 
@@ -39,9 +50,6 @@ endchoice
 
 endif
 
-if SHIELD_CALDERA_DONGLE || SHIELD_CALDERA_LEFT || SHIELD_CALDERA_RIGHT
-
-config ZMK_SPLIT
-    default y
+endif
 
 endif
