@@ -42,5 +42,3 @@ choice LV_COLOR_DEPTH
 endchoice
 
 endif
-
-endif
