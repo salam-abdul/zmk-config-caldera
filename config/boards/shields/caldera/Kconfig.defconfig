@@ -6,18 +6,10 @@ config ZMK_SPLIT
 endif
 
 
-if SHIELD_CALDERA_DONGLE || SHIELD_CALDERA_LEFT 
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-if ZMK_SPLIT_ROLE_CENTRAL
+if SHIELD_CALDERA_DONGLE 
 
 config ZMK_KEYBOARD_NAME
     default "Caldera"
-
-endif
-
 endif
 
 
