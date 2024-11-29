@@ -26,11 +26,11 @@
             // |  F13 | CRT | ALT | GUI | BKSP | SPC |     | SPC | ENT |LARW |DARW |UARW | RARW |
 
             bindings = <
-&kp EQUAL  &kp N1            &kp N2        &kp N3        &kp N4         &kp N5         &kp N6       &kp N7         &kp N8       &kp N9       &kp N0           &kp MINUS
-&kp TAB    &kp Q             &kp W         &kp E         &kp R          &kp T          &kp Y        &kp U          &kp I        &kp O        &kp P            &kp BSLH
-&kp ESC    &bhm LCTRL A      &bhm LALT S   &bhm LGUI D   &bhm LSHIFT F  &kp G          &kp H        &bhm RSHIFT J  &bhm RGUI K  &bhm RALT L  &bhm RCTRL SEMI  &kp APOS
-&kp LSHFT  &kp Z             &kp X         &kp C         &kp V          &kp B          &kp N        &kp M          &kp COMMA    &kp DOT      &kp FSLH         &kp ENTER
-&kp F13    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &lt 1 SPACE    &lt 2 SPACE  &lt 3 ENTER    &kp LEFT     &kp DOWN     &kp UP           &kp RIGHT
+&kp EQUAL  &kp N1            &kp N2        &kp N3        &kp N4         &kp N5         &kp N6       &kp N7         &kp N8       &kp N9        &kp N0           &kp MINUS
+&kp TAB    &kp Q             &kp W         &kp E         &kp R          &kp T          &kp Y        &kp U          &kp I        &kp O         &kp P            &kp BSLH
+&kp ESC    &bhm LCTRL A      &bhm LALT S   &bhm LGUI D   &bhm LSHIFT F  &kp G          &kp H        &bhm RSHIFT J  &bhm RGUI K  &bhm RALT L   &bhm RCTRL SEMI  &kp APOS
+&kp LSHFT  &kp Z             &kp X         &kp C         &kp V          &kp B          &kp N        &kp M          &kp COMMA    &kp DOT       &kp FSLH         &kp ENTER
+&kp F13    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp BACKSPACE  &lt 1 SPACE    &lt 2 SPACE  &lt 3 ENTER    &kp LEFT     &kp UP_ARROW  &kp DOWN_ARROW   &kp RIGHT
             >;
         };
 
